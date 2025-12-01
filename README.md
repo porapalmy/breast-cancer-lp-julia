@@ -132,8 +132,8 @@ In short:
   <img src="images/rsa_predicted_vs_dfs_censored.png" width="650">
 </p>
 
-- **Left plot:** Predicted vs. actual Time To Recurrence (TTR) for recurrent patients. Points near the red dashed line indicate accurate predictions. Some cases are over- or underestimated, highlighting the challenge of exact TTR prediction.
-- **Right plot:** Predicted TTR vs. Disease-Free Survival (DFS) for censored patients. Green points indicate predicted TTR ≥ DFS (desired), red points indicate predicted TTR < DFS (undesired). The model predicts well for many patients but struggles with longer DFS times, suggesting some constraint violations were allowed in the optimization.
+- Predicted vs. actual Time To Recurrence (TTR) for recurrent patients. Points near the red dashed line indicate accurate predictions. Some cases are over- or underestimated, highlighting the challenge of exact TTR prediction.
+- Predicted TTR vs. Disease-Free Survival (DFS) for censored patients. Green points indicate predicted TTR ≥ DFS (desired), red points indicate predicted TTR < DFS (undesired). The model predicts well for many patients but struggles with longer DFS times, suggesting some constraint violations were allowed in the optimization.
 
 ---
 
